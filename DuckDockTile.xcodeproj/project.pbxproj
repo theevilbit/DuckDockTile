@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41BE32852AC60E5F001AEAE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BE32842AC60E5F001AEAE2 /* AppDelegate.m */; };
+		41BE32872AC60E60001AEAE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41BE32862AC60E60001AEAE2 /* Assets.xcassets */; };
+		41BE328A2AC60E60001AEAE2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41BE32882AC60E60001AEAE2 /* MainMenu.xib */; };
+		41BE328C2AC60E60001AEAE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BE328B2AC60E60001AEAE2 /* main.m */; };
+		41BE329E2AC60F6A001AEAE2 /* DuckDockTilePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BE329D2AC60F6A001AEAE2 /* DuckDockTilePlugin.m */; };
+		41BE32A02AC61119001AEAE2 /* DuckDockTilePlugin.docktileplugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 41BE32972AC60ED7001AEAE2 /* DuckDockTilePlugin.docktileplugin */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		41BE329F2AC6110F001AEAE2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				41BE32A02AC61119001AEAE2 /* DuckDockTilePlugin.docktileplugin in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		41BE32802AC60E5F001AEAE2 /* DuckDockTile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuckDockTile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41BE32832AC60E5F001AEAE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41BE32842AC60E5F001AEAE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41BE32862AC60E60001AEAE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41BE32892AC60E60001AEAE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		41BE328B2AC60E60001AEAE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41BE328D2AC60E60001AEAE2 /* DuckDockTile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DuckDockTile.entitlements; sourceTree = "<group>"; };
+		41BE32972AC60ED7001AEAE2 /* DuckDockTilePlugin.docktileplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuckDockTilePlugin.docktileplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		41BE329B2AC60F10001AEAE2 /* DuckDockTilePlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DuckDockTilePlugin.h; sourceTree = "<group>"; };
+		41BE329D2AC60F6A001AEAE2 /* DuckDockTilePlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuckDockTilePlugin.m; sourceTree = SOURCE_ROOT; };
+		41BE32A12AC6114B001AEAE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41BE327D2AC60E5F001AEAE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41BE32942AC60ED7001AEAE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41BE32772AC60E5F001AEAE2 = {
+			isa = PBXGroup;
+			children = (
+				41BE329C2AC60F17001AEAE2 /* DuckDockTilePlugin */,
+				41BE32822AC60E5F001AEAE2 /* DuckDockTile */,
+				41BE32812AC60E5F001AEAE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41BE32812AC60E5F001AEAE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41BE32802AC60E5F001AEAE2 /* DuckDockTile.app */,
+				41BE32972AC60ED7001AEAE2 /* DuckDockTilePlugin.docktileplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41BE32822AC60E5F001AEAE2 /* DuckDockTile */ = {
+			isa = PBXGroup;
+			children = (
+				41BE32A12AC6114B001AEAE2 /* Info.plist */,
+				41BE32832AC60E5F001AEAE2 /* AppDelegate.h */,
+				41BE32842AC60E5F001AEAE2 /* AppDelegate.m */,
+				41BE32862AC60E60001AEAE2 /* Assets.xcassets */,
+				41BE32882AC60E60001AEAE2 /* MainMenu.xib */,
+				41BE328B2AC60E60001AEAE2 /* main.m */,
+				41BE328D2AC60E60001AEAE2 /* DuckDockTile.entitlements */,
+			);
+			path = DuckDockTile;
+			sourceTree = "<group>";
+		};
+		41BE329C2AC60F17001AEAE2 /* DuckDockTilePlugin */ = {
+			isa = PBXGroup;
+			children = (
+				41BE329D2AC60F6A001AEAE2 /* DuckDockTilePlugin.m */,
+				41BE329B2AC60F10001AEAE2 /* DuckDockTilePlugin.h */,
+			);
+			path = DuckDockTilePlugin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41BE327F2AC60E5F001AEAE2 /* DuckDockTile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41BE32902AC60E60001AEAE2 /* Build configuration list for PBXNativeTarget "DuckDockTile" */;
+			buildPhases = (
+				41BE327C2AC60E5F001AEAE2 /* Sources */,
+				41BE327D2AC60E5F001AEAE2 /* Frameworks */,
+				41BE327E2AC60E5F001AEAE2 /* Resources */,
+				41BE329F2AC6110F001AEAE2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DuckDockTile;
+			productName = DuckDockTile;
+			productReference = 41BE32802AC60E5F001AEAE2 /* DuckDockTile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41BE32962AC60ED7001AEAE2 /* DuckDockTilePlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41BE32982AC60ED7001AEAE2 /* Build configuration list for PBXNativeTarget "DuckDockTilePlugin" */;
+			buildPhases = (
+				41BE32932AC60ED7001AEAE2 /* Sources */,
+				41BE32942AC60ED7001AEAE2 /* Frameworks */,
+				41BE32952AC60ED7001AEAE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DuckDockTilePlugin;
+			productName = DuckDockTilePlugin;
+			productReference = 41BE32972AC60ED7001AEAE2 /* DuckDockTilePlugin.docktileplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41BE32782AC60E5F001AEAE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					41BE327F2AC60E5F001AEAE2 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					41BE32962AC60ED7001AEAE2 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 41BE327B2AC60E5F001AEAE2 /* Build configuration list for PBXProject "DuckDockTile" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41BE32772AC60E5F001AEAE2;
+			productRefGroup = 41BE32812AC60E5F001AEAE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41BE327F2AC60E5F001AEAE2 /* DuckDockTile */,
+				41BE32962AC60ED7001AEAE2 /* DuckDockTilePlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41BE327E2AC60E5F001AEAE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41BE32872AC60E60001AEAE2 /* Assets.xcassets in Resources */,
+				41BE328A2AC60E60001AEAE2 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41BE32952AC60ED7001AEAE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41BE327C2AC60E5F001AEAE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41BE328C2AC60E60001AEAE2 /* main.m in Sources */,
+				41BE32852AC60E5F001AEAE2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41BE32932AC60ED7001AEAE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41BE329E2AC60F6A001AEAE2 /* DuckDockTilePlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		41BE32882AC60E60001AEAE2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41BE32892AC60E60001AEAE2 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41BE328E2AC60E60001AEAE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		41BE328F2AC60E60001AEAE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		41BE32912AC60E60001AEAE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DuckDockTile/DuckDockTile.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33YRLYRBYV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DuckDockTile/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.csabafitzl.DuckDockTile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		41BE32922AC60E60001AEAE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DuckDockTile/DuckDockTile.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33YRLYRBYV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DuckDockTile/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.csabafitzl.DuckDockTile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		41BE32992AC60ED7001AEAE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33YRLYRBYV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = DuckDockTilePlugin;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.csabafitzl.DuckDockTilePlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				WRAPPER_EXTENSION = docktileplugin;
+			};
+			name = Debug;
+		};
+		41BE329A2AC60ED7001AEAE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33YRLYRBYV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = DuckDockTilePlugin;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.csabafitzl.DuckDockTilePlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				WRAPPER_EXTENSION = docktileplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41BE327B2AC60E5F001AEAE2 /* Build configuration list for PBXProject "DuckDockTile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41BE328E2AC60E60001AEAE2 /* Debug */,
+				41BE328F2AC60E60001AEAE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41BE32902AC60E60001AEAE2 /* Build configuration list for PBXNativeTarget "DuckDockTile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41BE32912AC60E60001AEAE2 /* Debug */,
+				41BE32922AC60E60001AEAE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41BE32982AC60ED7001AEAE2 /* Build configuration list for PBXNativeTarget "DuckDockTilePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41BE32992AC60ED7001AEAE2 /* Debug */,
+				41BE329A2AC60ED7001AEAE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41BE32782AC60E5F001AEAE2 /* Project object */;
+}

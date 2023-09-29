@@ -1,0 +1,1 @@
+This is a sample project to show how can we persist using Dock Tile Plugins.
